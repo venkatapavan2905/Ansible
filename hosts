@@ -11,6 +11,7 @@
 #parent group  --> contains group names
 group_name1
 group_name2
+
 [group_name:vars]
 # contains common inventory paramaters needed to connect to the hosts present in group 
 
