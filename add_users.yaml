@@ -1,0 +1,12 @@
+---
+- name: Adding multiple users
+  hosts: client
+  become: true
+  tasks:
+  - name: Adding users
+    user: 
+      name: {{ item }}
+      state: present
+    loop:
+      - pavan
+      - ramesh
