@@ -1,6 +1,6 @@
 ---
 - name: Enable intranet services
-  hosts: servera.lab.example.com
+  hosts: <inventory_file>
   become: true
   tasks:
     - name: Latest version of httpd and firewalld installed
